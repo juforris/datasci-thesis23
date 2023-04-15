@@ -7,7 +7,7 @@ import shap
 from deeplift.dinuc_shuffle import dinuc_shuffle
 
 # Load validation sequences
-X_valid = pd.read_pickle("data/X_valid.pkl")
+X_valid = pd.read_pickle("../data/X_valid.pkl")
 
 # Input length
 maxlen = 200
@@ -45,6 +45,6 @@ scores = my_deepExplainer(model, one_hot)
 shap_values_hypothetical, shap_values_contribution = scores
 
 # Save scores
-np.save("modisco/contribution_scores.npy", shap_values_contribution)
-np.save("modisco/hypothetical_scores.npy", shap_values_hypothetical)
-np.save("modisco/10bm_valid_one_hot.npy", one_hot)
+np.save("../modisco/contribution_scores.npy", shap_values_contribution)
+np.save("../modisco/hypothetical_scores.npy", shap_values_hypothetical)
+np.save("../modisco/10bm_valid_one_hot.npy", one_hot)
