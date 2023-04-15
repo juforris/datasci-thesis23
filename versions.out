@@ -1,0 +1,10 @@
+Num GPUs: 1
+
+Module versions
+Tensorflow 2.5.0
+KerasTuner 1.2.0
+Matplotlib 3.3.4
+NumPy 1.19.5
+Pandas 1.1.5
+Scikit-learn 0.24.2
+SciPy 1.5.4
