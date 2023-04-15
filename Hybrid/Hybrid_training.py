@@ -1,3 +1,7 @@
+# Hybrid CNN LSTM model inspired by Quang and Xie (2016).
+# Article https://doi.org/10.1093/nar/gkw226 
+# Source https://github.com/uci-cbcl/DanQ/blob/master/DanQ_train.py 
+
 # Data wrangling and plotting
 import pandas as pd
 import matplotlib.pyplot as plt

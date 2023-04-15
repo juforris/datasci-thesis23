@@ -1,3 +1,7 @@
+# CNN model inspired by Almeida et al. (2022).
+# Article https://doi.org/10.1038/s41588-022-01048-5 
+# Source https://github.com/bernardo-de-almeida/DeepSTARR/blob/main/DeepSTARR/DeepSTARR_training.ipynb
+
 # Data wrangling and plotting
 import pickle
 import pandas as pd
