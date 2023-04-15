@@ -11,7 +11,7 @@ tf.random.set_seed(1337)  # sets seeds for base-python, numpy and tf
 
 # Validation set
 maxlen = 200
-X_valid10bm = pd.read_pickle("data10bm/X_valid.pkl")
+X_valid10bm = pd.read_pickle("../data/10bm/X_valid.pkl")
 X_valid = pad_sequences(X_valid10bm, padding="post", maxlen=maxlen)
 
 # CNN model trained on four data subsets

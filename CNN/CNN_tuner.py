@@ -32,14 +32,14 @@ physical_devices = list_physical_devices("GPU")
 print("\nNum GPUs:", len(physical_devices))
 
 # Load data
-X_train = pd.read_pickle("data/X_train.pkl")
-y_train = pd.read_pickle("data/y_train.pkl")
+X_train = pd.read_pickle("../data/X_train.pkl")
+y_train = pd.read_pickle("../data/y_train.pkl")
 
-X_test = pd.read_pickle("data/X_test.pkl")
-y_test = pd.read_pickle("data/y_test.pkl")
+X_test = pd.read_pickle("../data/X_test.pkl")
+y_test = pd.read_pickle("../data/y_test.pkl")
 
-X_valid = pd.read_pickle("data/X_valid.pkl")
-y_valid = pd.read_pickle("data/y_valid.pkl")
+X_valid = pd.read_pickle("../data/X_valid.pkl")
+y_valid = pd.read_pickle("../data/y_valid.pkl")
 
 # Preprocessing
 maxlen = 200
