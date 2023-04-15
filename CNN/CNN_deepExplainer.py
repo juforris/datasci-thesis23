@@ -1,3 +1,7 @@
+# Script based on code by Almeida et al. 
+# Github https://github.com/bernardo-de-almeida/DeepSTARR 
+# Article https://doi.org/10.1038/s41588-022-01048-5 
+
 # Import modules
 import pandas as pd
 import numpy as np
