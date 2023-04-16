@@ -21,7 +21,7 @@ def Spearman(y_true, y_pred):
      return (tf.py_function(spearmanr, [tf.cast(y_pred, tf.float32), tf.cast(y_true, tf.float32)], Tout = tf.float32))
 
 # Load model
-model = load_model("CNN.h5", custom_objects={"Spearman": Spearman})
+model = load_model("CNN10bm.h5", custom_objects={"Spearman": Spearman})
 
 # Preprocessing
 data = X_valid
