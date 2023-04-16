@@ -13,7 +13,7 @@ X_valid = pd.read_pickle("../data/10bm/X_valid.pkl")
 maxlen = 200
 
 # Load model
-model = load_model("Hybrid.h5")
+model = load_model("Hybrid10bm.h5")
 
 # Preprocessing
 data = X_valid
