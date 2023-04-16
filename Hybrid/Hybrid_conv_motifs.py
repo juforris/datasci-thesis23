@@ -16,10 +16,10 @@ X_valid = pad_sequences(X_valid10bm, padding="post", maxlen=maxlen)
 
 # Hybrid model trained on four data subsets
 models = []
-models.append(load_model("Hybrid10bm/Hybrid.h5"))
-models.append(load_model("Hybrid25bm/Hybrid.h5"))
-models.append(load_model("Hybrid50bm/Hybrid.h5"))
-models.append(load_model("Hybrid100bm/Hybrid.h5"))
+models.append(load_model("Hybrid10bm.h5"))
+models.append(load_model("Hybrid25bm.h5"))
+models.append(load_model("Hybrid50bm.h5"))
+models.append(load_model("Hybrid100bm.h5"))
 
 # First conv layer specs
 nfilters = 224

@@ -7,7 +7,7 @@ import shap
 from deeplift.dinuc_shuffle import dinuc_shuffle
 
 # Load validation sequences
-X_valid = pd.read_pickle("../data/X_valid.pkl")
+X_valid = pd.read_pickle("../data/10bm/X_valid.pkl")
 
 # Input length
 maxlen = 200

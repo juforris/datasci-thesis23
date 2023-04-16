@@ -16,10 +16,10 @@ X_valid = pad_sequences(X_valid10bm, padding="post", maxlen=maxlen)
 
 # CNN model trained on four data subsets
 models = []
-models.append(load_model("CNN10bm/CNN.h5"))
-models.append(load_model("CNN25bm/CNN.h5"))
-models.append(load_model("CNN50bm/CNN.h5"))
-models.append(load_model("CNN100bm/CNN.h5"))
+models.append(load_model("CNN10bm.h5"))
+models.append(load_model("CNN25bm.h5"))
+models.append(load_model("CNN50bm.h5"))
+models.append(load_model("CNN100bm.h5"))
 
 # First conv layer specs
 nfilters = 224
